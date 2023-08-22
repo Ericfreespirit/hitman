@@ -1,11 +1,12 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="./hitman_logo.png" width="200" alt="Nest Logo" /></a>
+  <img src="./hitman_logo.png" width="200" alt="Nest Logo" />
 </p>
-  <p align="center">An app RESTful Api</p>
+  <p align="center">An app RESTful Api made in 3 days.</p>
     <p align="center">
 <a target="_blank"><img src="https://img.shields.io/badge/Frontend-REACT-yellow?style=flat&logo=chrome" alt="Front" /></a>
 <a target="_blank"><img src="https://img.shields.io/badge/Backend-Nest-yellow?style=flat&logo=chrome" alt="Back" /></a>
 <a target="_blank"><img src="https://img.shields.io/badge/Database-PostgreSQL-yellow?style=flat&logo=chrome" alt="Database" /></a>
+
 <a target="_blank"><img src="https://img.shields.io/badge/Npm%20Version-8.19.2-red?style=flat&logo=chrome" alt="Chrome version" /></a>
 <a target="_blank"><img src="https://img.shields.io/badge/Chrome%20Version-115.0.5790.170-blue?style=flat&logo=chrome" alt="Chrome version" /></a>
 <a target="_blank"><img src="https://img.shields.io/badge/Safari%20Version-16.5-blue?style=flat&logo=chrome" alt="Safari version" /></a>
@@ -26,24 +27,34 @@ Should you need assistance, our team is at your service, shrouded in secrecy. �
 
 Become the ultimate shadow professional. Stay covert, stay ready, and emerge victorious. Happy hunting, assassin! 🎯🔪
 
-## Installation
+## Installation && Data migration
+
 
 ```bash
-$ npm install
+# Installation: node_modules front/back
+# Data migration: create database "hitman_db" http://localhost:5432
+# your PostgreSQL username will be ask
+$ ./install.sh
 ```
 
 ## Running the app
 
 ```bash
-# development
+# development frontend http://localhost:3000
+$ cd ./frontend
 $ npm run start
 
-# watch mode
+# development backend http://localhost:5000
+$ cd ./backend
 $ npm run start:dev
 
-# production mode
-$ npm run start:prod
+
+# create a user {Login:Agent_47;Pass:secret}
+$ cd ./backend
+$ ./createUser.sh
 ```
+<p> Now enjoy 😉</p>
+## Bonus
 
 ## Contact
 
