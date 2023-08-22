@@ -16,14 +16,14 @@
 
 ## Description
 Julien and Corentin.
-Welcome to our discreet platform, fellow assassins! 😎
+Welcome to my discreet platform, fellow assassins! 😎
 
 As your host, I'm here to explain to you how your mission will unfold.
 
 Browse through our exclusive contracts, each one tailored to challenge your skills to the max. Remember, you can only juggle up to 5 contracts at once – keeping you sharp and agile.
 
 
-Should you need assistance, our team is at your service, shrouded in secrecy. 🕵️‍♂️
+Should you need assistance, I'm at your service, shrouded in secrecy. 🕵️‍♂️
 
 Become the ultimate shadow professional. Stay covert, stay ready, and emerge victorious. Happy hunting, assassin! 🎯🔪
 
@@ -48,13 +48,19 @@ $ npm run start
 $ cd ./backend
 $ npm run start:dev
 
-
 # create a user {Login:Agent_47;Pass:secret}
 $ cd ./backend
 $ ./createUser.sh
 ```
 <p> Now enjoy 😉</p>
 ## Bonus
+
+- Swagger : http://localhost:5000/api
+- Bonus contract features:
+	- Display contract(s)
+	- Delete contract
+	- Accept contract
+
 
 ## Contact
 
