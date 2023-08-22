@@ -49,6 +49,7 @@ const [data, setData] = useState({
 			}
 		} catch (err) {
 			console.error('Error:', err);
+			alert(err);
 		}
 	};
 

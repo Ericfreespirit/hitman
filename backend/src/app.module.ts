@@ -19,7 +19,7 @@ import { AuthGuard } from './auth/auth.guard';
 		PassportModule,
     JwtModule.register({
       secret: jwtConstants.secret,
-      signOptions: { expiresIn: '1h' }, 
+      signOptions: { expiresIn: '2h' }, 
     }),
 		TypeOrmModule.forRoot({
 			type: 'postgres',
