@@ -16,19 +16,17 @@
 
 ## Description
 Julien and Corentin.
-Welcome to my discreet platform, fellow assassins! 😎
+Welcome to my discreet platform, fellow assassins ! 😎
 
 As your host, I'm here to explain to you how your mission will unfold.
 
-Browse through our exclusive contracts, each one tailored to challenge your skills to the max. Remember, you can only juggle up to 5 contracts at once – keeping you sharp and agile.
-
-
+Follow the steps strictly, please.
 Should you need assistance, I'm at your service, shrouded in secrecy. 🕵️‍♂️
 
-Become the ultimate shadow professional. Stay covert, stay ready, and emerge victorious. Happy hunting, assassin! 🎯🔪
+Ready ? Let's goooo ! 🎯🔪
 
 ## Installation && Data migration
-
+⚠️ Before the installation make sure you PostgreSQL server is launch at port 5432
 
 ```bash
 # Installation: node_modules front/back
@@ -59,7 +57,7 @@ $ ./createUser.sh
 - Bonus contract features:
 	- Display contract(s)
 	- Delete contract
-	- Accept contract
+	- Accept contract (5 max)
 
 
 ## Contact
@@ -67,3 +65,5 @@ $ ./createUser.sh
 - Author - Eric Ling
 - Email - ericlingfr@gmail.com
 
+
+<p align=center>make with ❤️ </p>
